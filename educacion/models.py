@@ -39,3 +39,6 @@ class Disiplina(models.Model):
     tipo_falta = models.ForeignKey(TipoFalta, on_delete=models.CASCADE)
     estudiante = models.ForeignKey(Estudiante, on_delete=models.CASCADE)
     fechaAsignado=models.DateField(default=datetime.date.today)
+
+    def __str__(self):
+        return self.estudiante

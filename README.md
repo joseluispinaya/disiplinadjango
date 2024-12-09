@@ -1,3 +1,3 @@
-# iniciar entorno virtual
+# iniciar proyecto disciplinario
 
-Sigue estos pasos para instalar el proyecto:
+Aplicacion de disciplina para estudiantes EMI:
