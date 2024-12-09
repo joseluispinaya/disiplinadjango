@@ -1,7 +1,6 @@
 from django.contrib import admin
 from .models import Carrera, TipoFalta, Estudiante, Disiplina
 
-# Register your models here.
 admin.site.register(Carrera)
 
 class TipofaltaAdmin(admin.ModelAdmin):
